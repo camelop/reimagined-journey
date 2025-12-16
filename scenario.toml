@@ -1,5 +1,5 @@
 [green_agent]
-image = "ghcr.io/camelop/try_gh_mode:1.2.4"
+image = "ghcr.io/camelop/try_gh_mode:1.2.5"
 env = {}
 
 [[participants]]
