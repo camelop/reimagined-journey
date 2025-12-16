@@ -1,0 +1,15 @@
+{
+  "participants": {
+    "player_w": "019b2941-3f49-78d0-a216-225186004f6c",
+    "player_b": "019b2941-3f49-78d0-a216-225186004f6c"
+  },
+  "results": [
+    {
+      "reason": "invalid_move_format",
+      "invalid_move": "c8g4",
+      "invalid_explanation": "Not in legal moves",
+      "fen": "r1bqk2r/pppnbppp/3p1n2/4p3/2BPP3/2N2N2/PPP2PPP/R1BQ1RK1 b kq - 6 6",
+      "winner": "player_w"
+    }
+  ]
+}

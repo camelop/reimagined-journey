@@ -1,0 +1,18 @@
+[green_agent]
+image = "ghcr.io/camelop/try_gh_mode:1.2.6"
+env = {}
+
+[[participants]]
+agentbeats_id = "019b2941-3f49-78d0-a216-225186004f6c"
+name = "player_w"
+image = "ghcr.io/camelop/try_gh_mode:1.3.0"
+env = {OPENAI_API_KEY = "${OPENAI_API_KEY}"}
+
+[[participants]]
+agentbeats_id = "019b2941-3f49-78d0-a216-225186004f6c"
+name = "player_b"
+image = "ghcr.io/camelop/try_gh_mode:1.3.0"
+env = {OPENAI_API_KEY = "${OPENAI_API_KEY}"}
+
+[config]
+# Add your assessment config here
