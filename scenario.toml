@@ -1,18 +1,18 @@
 [green_agent]
-image = "ghcr.io/yourorg/your-green-agent:version"
-env = { API_KEY = "${GITHUB_SECRET_NAME}", LOG_LEVEL = "INFO" }
+image = "ghcr.io/camelop/try_gh_mode:1.2.0"
+env = { LOG_LEVEL = "INFO" }
 
 [[participants]]
-agentbeats_id = ""
-name = "role_1_name"
-image = ""
-env = {}
+agentbeats_id = "019b2941-3f49-78d0-a216-225186004f6c"
+name = "player_w"
+image = "ghcr.io/camelop/try_gh_mode:1.3.0"
+env = {OPENAI_API_KEY = "${OPENAI_API_KEY}"}
 
 [[participants]]
-agentbeats_id = ""
-name = "role_2_name"
-image = ""
-env = {}
+agentbeats_id = "019b2941-3f49-78d0-a216-225186004f6c"
+name = "player_b"
+image = "ghcr.io/camelop/try_gh_mode:1.3.0"
+env = {OPENAI_API_KEY = "${OPENAI_API_KEY}"}
 
 [config]
 # Add your assessment config here
